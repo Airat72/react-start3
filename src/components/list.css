@@ -1,0 +1,40 @@
+
+ .container {
+  padding-top: 30px;
+  width: 300px;
+  margin: auto;
+  border-bottom-color:black;
+  min-height:800px;
+}
+
+
+.input {
+  padding: 5px 15px;
+  width: 300px;
+}
+
+.user-list {
+  margin-top: 30px;
+}
+
+.user {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  background: #5eda16;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-id {
+  color: white;
+  margin-right: 20px;
+}
+
+.user-name {
+  color: white;
+}
+
+.user-age {
+  margin-left: auto;
+}

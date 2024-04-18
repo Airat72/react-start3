@@ -1,0 +1,27 @@
+*{
+    padding-bottom: 22px;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .items{     
+    overflow: hidden;  
+    font-size: 0;  
+  }
+  .item{  
+    padding: 10px 30px 10px 20px;
+    border-style: solid;
+    border-color: #5eda16;
+    font-size: 22px;
+    height: 70vh;  
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;  
+    background: #3c3a3a;
+    position: relative;
+  }
+  .item:nth-of-type(even){
+    background: #3c3a3a;
+  }
+ 

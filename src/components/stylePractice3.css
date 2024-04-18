@@ -1,0 +1,20 @@
+.grid * {
+	padding: 10px 15px;
+	background-color: #5eda16;
+  border-radius: 30%;
+	border: 5px solid #3c3a3a;
+	text-align: center;
+	font-size: 32px;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+
+
+
+.grid {
+	display: grid;
+  justify-content: center;
+  grid-template: repeat(3, 250px) / repeat(5, 250px);
+  grid-gap: 50px;
+}
